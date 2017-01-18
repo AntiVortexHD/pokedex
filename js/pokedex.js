@@ -15,14 +15,17 @@ $(function() {
   $(".pokemon-atk").append(pokemon.attack);
   $(".pokemon-dfs").append(pokemon.defense);
   // TODO: Add ability names here to the <ul> with class .ability-names
-  for(var i=0;i<3;i++){
-$(".ability-names").append("<li>" + pokemon.abilities[i].name + "</li>");
+  for(var i=0; i< pokemon.abilities.length; i++){
+    $(".ability-names").append("<li>" + pokemon.abilities[i].name + "</li>");
   }
-
-
   // TODO: Add egg group names here to a <ul> that you created
-
+  for(var i=0; i< pokemon.egg_groups.length; i++){
+    $(".egg-groups").append("<li>" + pokemon.egg_groups[i].name + "</li>");
+  }
   // TODO: Add move names in alphabetical order here to the existing <ul>
+  for(var i=0; i< pokemon.moves.length; i++){
+    $(".moves").append("<li>" + pokemon.moves[i].name + "</li>");
+  }
   // TODO: Add ONLY level up move names to the <ul> you created
 
   // Now... take a deep breath and go back to your move lists.

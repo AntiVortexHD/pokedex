@@ -10,6 +10,10 @@ var charmander = {
         name: "quick-attack",
         resource_uri: "/api/v1/ability/94/"
     },
+     {
+        name: "quick-dash",
+        resource_uri: "/api/v1/ability/94/"
+    },
     ],
     attack: 52,
     catch_rate: 0,
