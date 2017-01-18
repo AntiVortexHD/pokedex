@@ -5,7 +5,12 @@ var charmander = {
     }, {
         name: "solar-power",
         resource_uri: "/api/v1/ability/94/"
-    }],
+    },
+     {
+        name: "quick-attack",
+        resource_uri: "/api/v1/ability/94/"
+    },
+    ],
     attack: 52,
     catch_rate: 0,
     created: "2013-11-03T15:05:41.271082",
